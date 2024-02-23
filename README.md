@@ -11,5 +11,4 @@ This API interacts with the Hotelbeds API to retrieve rate information
 `export API_KEY=${API_KEY}`   
 `export SECRET=${API_SECRET}`   
 4. Run `go run main.go`
-5. Then API should run on port `8080`
- 
+5. Then the API should run on port `8080`

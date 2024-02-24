@@ -2,15 +2,16 @@ package main
 
 import (
 	"net/http"
-	"os"
 
 	"github.com/gin-gonic/gin"
 	"github.com/hotel-rates-api/service"
 )
 
 func main() {
-	apiKey := os.Getenv("API_KEY")
-	secret := os.Getenv("SECRET")
+	// apiKey := os.Getenv("API_KEY")
+	// secret := os.Getenv("SECRET")
+	apiKey := "454754dfa49008c9539f0d082cd488b2"
+	secret := "aebd06614b"
 	r := gin.Default()
 
 	// Initialize hotel service

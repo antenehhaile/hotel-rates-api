@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:730335285681:task-definition/rate-api-definition:1",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:730335285681:task-definition/rate-api-definition:2",
     "containerDefinitions": [
         {
             "name": "hotel-rates-api",
-            "image": "730335285681.dkr.ecr.us-east-2.amazonaws.com/hotel-rates-api",
+            "image": "730335285681.dkr.ecr.us-east-2.amazonaws.com/hotel-rates-api:fb603dd62b20592a9b9b79b3ca03ac6c67bc9d2c",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,10 +16,8 @@
             ],
             "essential": true,
             "environment": [],
-            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
-            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -27,15 +25,14 @@
                     "awslogs-group": "/ecs/",
                     "awslogs-region": "us-east-2",
                     "awslogs-stream-prefix": "ecs"
-                },
-                "secretOptions": []
+                }
             }
         }
     ],
     "family": "rate-api-definition",
     "executionRoleArn": "arn:aws:iam::730335285681:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 1,
+    "revision": 2,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -78,7 +75,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-02-24T21:50:04.484Z",
-    "registeredBy": "arn:aws:iam::730335285681:root",
+    "registeredAt": "2024-02-24T22:30:20.604Z",
+    "registeredBy": "arn:aws:iam::730335285681:user/github-action-user",
     "tags": []
 }

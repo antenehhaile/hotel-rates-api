@@ -43,7 +43,7 @@ jobs:
 
       - name: Upload Artifact to s3
         # working-directory: ${{ env.applicationfolder }}/target
-        run: aws s3 cp ./app/* s3://${{ env.S3BUCKET }}/
+        run: aws s3 cp ./app/hotel-rates-api.tar.gz s3://${{ env.S3BUCKET }}/
         
   deploy:
     needs: build

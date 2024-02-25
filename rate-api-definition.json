@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-2:730335285681:task-definition/rate-api-definition:2",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-2:730335285681:task-definition/rate-api-definition:8",
     "containerDefinitions": [
         {
             "name": "hotel-rates-api",
-            "image": "730335285681.dkr.ecr.us-east-2.amazonaws.com/hotel-rates-api:fb603dd62b20592a9b9b79b3ca03ac6c67bc9d2c",
+            "image": "730335285681.dkr.ecr.us-east-2.amazonaws.com/hotel-rates-api:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -16,23 +16,27 @@
             ],
             "essential": true,
             "environment": [],
+            "environmentFiles": [],
             "mountPoints": [],
             "volumesFrom": [],
+            "ulimits": [],
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-create-group": "true",
-                    "awslogs-group": "/ecs/",
+                    "awslogs-group": "/ecs/rate-api-definition",
                     "awslogs-region": "us-east-2",
                     "awslogs-stream-prefix": "ecs"
-                }
+                },
+                "secretOptions": []
             }
         }
     ],
     "family": "rate-api-definition",
+    "taskRoleArn": "arn:aws:iam::730335285681:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::730335285681:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 2,
+    "revision": 8,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -47,6 +51,9 @@
         },
         {
             "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
         },
         {
             "name": "ecs.capability.execution-role-ecr-pull"
@@ -75,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-02-24T22:30:20.604Z",
-    "registeredBy": "arn:aws:iam::730335285681:user/github-action-user",
+    "registeredAt": "2024-02-25T17:32:14.574Z",
+    "registeredBy": "arn:aws:iam::730335285681:root",
     "tags": []
 }

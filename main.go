@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -10,6 +11,7 @@ import (
 func main() {
 	// apiKey := os.Getenv("API_KEY")
 	// secret := os.Getenv("SECRET")
+	fmt.Println("API is running ...")
 	apiKey := "454754dfa49008c9539f0d082cd488b2"
 	secret := "aebd06614b"
 	r := gin.Default()
@@ -19,7 +21,7 @@ func main() {
 
 	// Define routes
 	r.GET("/health", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{})
+		c.JSON(http.StatusOK, gin.H{"message": "The service is running healthy"})
 	})
 
 	// Define routes

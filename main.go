@@ -18,6 +18,11 @@ func main() {
 	hotelService := service.NewHotelService()
 
 	// Define routes
+	r.GET("/health", func(c *gin.Context) {
+		c.JSON(http.StatusOK, gin.H{})
+	})
+
+	// Define routes
 	r.GET("/hotels", func(c *gin.Context) {
 		err := hotelService.GetHotelCheapRates(c, apiKey, secret)
 		if err != nil {

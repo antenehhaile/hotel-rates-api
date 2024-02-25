@@ -1,7 +1,19 @@
+# version: 0.0
+# os: linux
+# hooks:
+#   ApplicationStart:
+#     - location: ./hotel-rates-api
+#       timeout: 300
+#       runas: root
+
+
 version: 0.0
 os: linux
+files:
+  - source: ./app/
+    destination: /opt/hotel-rates-api
 hooks:
   ApplicationStart:
-    - location: ./hotel-rates-api
+    - location: ./start_application.sh
       timeout: 300
       runas: root

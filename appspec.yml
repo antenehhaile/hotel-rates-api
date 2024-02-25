@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /aws
+    destination: /usr/local/codedeployresources
+hooks:
+  ApplicationStart:
+    - location: ./hotel-rates-api
+      timeout: 300
+      runas: root

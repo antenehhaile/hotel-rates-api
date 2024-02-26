@@ -11,7 +11,7 @@ This repository contains a GoLang application that serves as an API for fetching
 1. Clone the repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/antenehhaile/hotel-rates-api.git
 ```
 
 2. Download all the go dependencies:
@@ -20,13 +20,7 @@ git clone <repository-url>
 go mod download
 ```
 
-3. Set up your local env
-```bash
-export API_KEY=${API_KEY}
-export SECRET=${API_SECRET}
-```
-
-4. Run the App
+3. Run the App
 ```bash
 go run main.go
 ```

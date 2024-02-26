@@ -18,12 +18,12 @@ func main() {
 	// Initialize hotel service
 	hotelService := service.NewHotelService()
 
-	// Define routes
+	// Health check endpoint
 	r.GET("/health", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"message": "The service is running healthy"})
 	})
 
-	// Define routes
+	// Cheap hotel rates endpoint
 	r.GET("/hotels", func(c *gin.Context) {
 		err := hotelService.GetHotelCheapRates(c, apiKey, secret)
 		if err != nil {

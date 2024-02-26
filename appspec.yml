@@ -1,12 +1,3 @@
-# version: 0.0
-# os: linux
-# hooks:
-#   ApplicationStart:
-#     - location: ./hotel-rates-api
-#       timeout: 300
-#       runas: root
-
-
 version: 0.0
 os: linux
 files:

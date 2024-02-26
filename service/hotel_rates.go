@@ -5,6 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -21,7 +22,6 @@ type HotelService interface {
 }
 
 type hotelService struct {
-	// You can inject any dependencies here
 }
 
 func NewHotelService() HotelService {
@@ -29,8 +29,7 @@ func NewHotelService() HotelService {
 }
 
 func (s *hotelService) GetHotelCheapRates(c *gin.Context, apiKey, secret string) error {
-	// Business logic for getting hotel rates
-
+	// Get the current time
 	start := time.Now()
 	ctx := c.Request.Context()
 	// Retrieve the request deadline (timeout)
@@ -44,15 +43,18 @@ func (s *hotelService) GetHotelCheapRates(c *gin.Context, apiKey, secret string)
 	hotelIds := c.Query("hotelIds")
 	occ := c.Query("occupancies")
 	var occupancies []model.Occupancy
-	err := json.Unmarshal([]byte(c.Query("occupancies")), &occupancies)
-	if err != nil {
-		fmt.Println("Error:", err)
-		c.JSON(http.StatusInternalServerError, gin.H{
-			"status":  "error",
-			"message": occ,
-		})
-		return err
+	if occ != "" {
+		err := json.Unmarshal([]byte(c.Query("occupancies")), &occupancies)
+		if err != nil {
+			fmt.Println("Error:", err)
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"status":  "error",
+				"message": occ,
+			})
+			return errors.New("internal server error")
+		}
 	}
+
 	hotelCodes, err := StringToIntArray(hotelIds)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{
@@ -105,6 +107,12 @@ func (s *hotelService) GetHotelCheapRates(c *gin.Context, apiKey, secret string)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return err
+	}
+
+	//Check if the API response is 200. If not, return an error
+	if resp.StatusCode != 200 {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Internal Server Error"})
+		return errors.New("internal server error")
 	}
 	defer resp.Body.Close()
 
@@ -188,7 +196,6 @@ func (s *hotelService) GetHotelCheapRates(c *gin.Context, apiKey, secret string)
 		}
 
 		//TODO: Some of the hotel infomation can be enriched by leveraging the hotels details endpoint ("/hotels/{hotelCodes}/details")
-		// I didn't have enough time to implement that.
 		hotelResults = append(hotelResults, model.HotelResult{
 			HotelInfo: model.HotelInfo{
 				HotelCode:       h.Code,

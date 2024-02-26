@@ -14,6 +14,6 @@ files:
     destination: /opt/app
 hooks:
   ApplicationStart:
-    - location: ApplicationStart.sh
+    - location: ./start_application.sh
       timeout: 300
       runas: root

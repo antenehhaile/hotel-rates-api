@@ -31,7 +31,7 @@ The API will run on port `8080`
 
 There are 2 exposed endpoints. You can call the endpoints as follows. 
 
-`health`
+`/health`
 ```bash
 curl --location --globoff 'http://localhost:8080/health'
 ```   

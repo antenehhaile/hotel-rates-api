@@ -1,0 +1,1818 @@
+{
+    "auditData": {
+        "environment": "[awseucentral1, awseucentral1c, ip_10_214_128_106, eucentral1]",
+        "internal": "0|67C45E136012440170892326443900|UK|05|1|54||||||||||||81||1~1~2~0|0|0||0|454754dfa49008c9539f0d082cd488b2||||",
+        "processTime": "32",
+        "release": "",
+        "requestHost": "99.120.9.122, 10.214.141.201, 10.214.130.233",
+        "serverId": "ip-10-214-128-106.eu-central-1.compute.internal",
+        "timestamp": "2024-02-26 04:54:24.471",
+        "token": "924AC5103A9A4CF48E702730CA8F6517"
+    },
+    "hotels": {
+        "checkIn": "2024-06-15",
+        "checkOut": "2024-06-16",
+        "hotels": [
+            {
+                "categoryCode": "5EST",
+                "categoryName": "5 STARS",
+                "code": 264,
+                "currency": "EUR",
+                "destinationCode": "PMI",
+                "destinationName": "Majorca",
+                "latitude": "39.53748636345900000000",
+                "longitude": "2.45310880904920000000",
+                "maxRate": "891.74",
+                "minRate": "366.62",
+                "name": "Secrets Mallorca Villamil Resort \u0026 Spa",
+                "rooms": [
+                    {
+                        "code": "DBT.DX",
+                        "name": "DELUXE 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "366.62",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "366.62",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|PQ HSI BB|BB||1~2~0||P@06~~23e16e~-504129728~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523e16e",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "381.71",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "381.71",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|FIT HSI BB|BB||1~2~0||N@06~~24717d~37589252~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524717d",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "456.11",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "456.11",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|PQ FIT HB|HB||1~2~0||P@06~~20b1c8~-443320493~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000520b1c8",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "474.44",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "474.44",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|FIT HSI HB|HB||1~2~0||N@06~~22c1da~1356357508~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000522c1da",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "671.77",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "671.77",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|PQ FIT AI|AI||1~2~0||P@06~~24d29f~-57676109~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524d29f",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 14,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "701.96",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "701.96",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX|FIT HSI AI|AI||1~2~0||N@06~~2602bd~-839536732~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052602bd",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBT.VM",
+                        "name": "FRONTAL SEA VIEW 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "368.77",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "368.77",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|PQ HSI BB|BB||1~2~0||P@06~~24d170~819252093~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524d170",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "382.79",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "382.79",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|FIT HSI BB|BB||1~2~0||N@06~~24f17e~1470532519~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524f17e",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "457.19",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "457.19",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|PQ FIT HB|HB||1~2~0||P@06~~2131c9~1885813104~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052131c9",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "476.60",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "476.60",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|FIT HSI HB|HB||1~2~0||N@06~~23c1dc~267181191~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523c1dc",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "673.93",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "673.93",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|PQ FIT AI|AI||1~2~0||P@06~~25d2a1~-234214416~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000525d2a1",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 6,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "704.12",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "704.12",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.VM|FIT HSI AI|AI||1~2~0||N@06~~20c2c0~814140999~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000520c2c0",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBT.DX-GV",
+                        "name": "DELUXE WITH TERRACE \u0026 HOT TUB GARDEN VIEW",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "370.93",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "370.93",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|PQ HSI BB|BB||1~2~0||P@06~~25d172~869702578~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000525d172",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "384.95",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "384.95",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|FIT HSI BB|BB||1~2~0||N@06~~25f180~442498898~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000525f180",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "459.35",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "459.35",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|PQ FIT HB|HB||1~2~0||P@06~~2231cb~1210743877~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052231cb",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "477.68",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "477.68",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|FIT HSI HB|HB||1~2~0||N@06~~2441dd~728544882~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052441dd",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "675.01",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "675.01",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|PQ FIT AI|AI||1~2~0||P@06~~2012a3~-1523888891~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052012a3",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 5,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "705.20",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "705.20",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-GV|FIT HSI AI|AI||1~2~0||N@06~~2142c1~1275504690~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052142c1",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBT.DX-VM",
+                        "name": "DELUXE FRONTAL SEA VIEW",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "375.24",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "375.24",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|PQ HSI BB|BB||1~2~0||P@06~~218177~347325386~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005218177",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "390.34",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "390.34",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|FIT HSI BB|BB||1~2~0||N@06~~222186~661103546~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005222186",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "464.74",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "464.74",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|PQ FIT HB|HB||1~2~0||P@06~~24a1d0~1783804893~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524a1d0",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "483.07",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "483.07",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|FIT HSI HB|HB||1~2~0||N@06~~2071e3~-632788774~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052071e3",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "680.40",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "680.40",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|PQ FIT AI|AI||1~2~0||P@06~~2282a8~-706141123~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052282a8",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 24,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "710.59",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "710.59",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.DX-VM|FIT HSI AI|AI||1~2~0||N@06~~23b2c6~1061386586~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523b2c6",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.TR",
+                        "name": "WITH TERRACE 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "410.83",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "410.83",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|PQ HSI BB|BB||1~2~0||P@06~~25319a~926278412~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000525319a",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "424.84",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "424.84",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|FIT HSI BB|BB||1~2~0||N@06~~2541a8~-519126824~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052541a8",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "499.25",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "499.25",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|PQ FIT HB|HB||1~2~0||P@06~~2191f3~412901119~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052191f3",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "518.65",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "518.65",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|FIT HSI HB|HB||1~2~0||N@06~~241206~910342488~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005241206",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "715.98",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "715.98",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|PQ FIT AI|AI||1~2~0||P@06~~2622cb~356457439~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052622cb",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 3,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "746.17",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "746.17",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR|FIT HSI AI|AI||1~2~0||N@06~~2112ea~1972583864~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052112ea",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBT.CB-VM",
+                        "name": "PREFERRED CLUB DELUXE FRONTAL SEA VIEW",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "445.33",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "445.33",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|PQ HSI BB|BB||1~2~0||P@06~~2211bd~-1379190699~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052211bd",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "459.35",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "459.35",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|FIT HSI BB|BB||1~2~0||N@06~~2231cb~-827644849~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052231cb",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "533.75",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "533.75",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|PQ FIT HB|HB||1~2~0||P@06~~24b215~-969879128~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524b215",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "553.16",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "553.16",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|FIT HSI HB|HB||1~2~0||N@06~~210229~1327344175~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005210229",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "750.49",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "750.49",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|PQ FIT AI|AI||1~2~0||P@06~~2312ee~-1416382616~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052312ee",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 17,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "780.68",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "780.68",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|DBT.CB-VM|FIT HSI AI|AI||1~2~0||N@06~~24430c~-316660753~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524430c",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.C2-VM",
+                        "name": "PREFERRED CLUB FRONTAL SEA VIEW 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "473.37",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "473.37",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|PQ HSI BB|BB||1~2~0||P@06~~2251d9~-670058609~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052251d9",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "487.38",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "487.38",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|FIT HSI BB|BB||1~2~0||N@06~~2261e7~1077142517~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052261e7",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "561.79",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "561.79",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|PQ FIT HB|HB||1~2~0||P@06~~24f231~-986266750~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524f231",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "580.12",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "580.12",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|FIT HSI HB|HB||1~2~0||N@06~~20c244~250118581~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000520c244",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "778.52",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "778.52",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|PQ FIT AI|AI||1~2~0||P@06~~23430a~667421346~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523430a",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 21,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "808.71",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "808.71",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.C2-VM|FIT HSI AI|AI||1~2~0||N@06~~247328~1588126613~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005247328",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.TR-VM",
+                        "name": "PREFERRED CLUB FRONTAL SEA VIEW WITH TERRACE \u0026 HOT TUB 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "489.54",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "489.54",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|PQ HSI BB|BB||1~2~0||P@06~~2361e9~-468506018~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052361e9",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "503.56",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "503.56",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|FIT HSI BB|BB||1~2~0||N@06~~2381f7~1789363686~N~~~NOR~67C45E136012440170892326443900AAUK000000100000000052381f7",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "577.96",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "577.96",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|PQ FIT HB|HB||1~2~0||P@06~~260241~-2062123183~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005260241",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "597.37",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "597.37",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|FIT HSI HB|HB||1~2~0||N@06~~225255~-1076134298~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005225255",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "794.69",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "794.69",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|PQ FIT AI|AI||1~2~0||P@06~~24531a~868973937~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524531a",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 8,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "824.89",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "824.89",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|JSU.TR-VM|FIT HSI AI|AI||1~2~0||N@06~~259338~-1994619514~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005259338",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SUI.C2-VM",
+                        "name": "PREFERRED CLUB FRONTAL SEA VIEW 2 ADULTS",
+                        "rates": [
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "556.39",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "556.39",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|PQ HSI BB|BB||1~2~0||P@06~~22722c~662351060~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000522722c",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "BB",
+                                "boardName": "BED AND BREAKFAST",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "571.49",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "571.49",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|FIT HSI BB|BB||1~2~0||N@06~~23123b~-358374672~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523123b",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "645.89",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "645.89",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|PQ FIT HB|HB||1~2~0||P@06~~259285~1227964295~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005259285",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "HB",
+                                "boardName": "HALF BOARD",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "664.22",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "664.22",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|FIT HSI HB|HB||1~2~0||N@06~~216298~89527312~N~~~NOR~67C45E136012440170892326443900AAUK00000010000000005216298",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "861.55",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "861.55",
+                                "packaging": true,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|PQ FIT AI|AI||1~2~0||P@06~~23735d~625159143~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000523735d",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "adults": 2,
+                                "allotment": 7,
+                                "boardCode": "AI",
+                                "boardName": "ALL INCLUSIVE",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "891.74",
+                                        "from": "2024-06-13T23:59:00+02:00"
+                                    }
+                                ],
+                                "children": 0,
+                                "net": "891.74",
+                                "packaging": false,
+                                "paymentType": "AT_WEB",
+                                "rateClass": "NOR",
+                                "rateKey": "20240615|20240616|W|1|264|SUI.C2-VM|FIT HSI AI|AI||1~2~0||N@06~~24a37b~1058182960~N~~~NOR~67C45E136012440170892326443900AAUK0000001000000000524a37b",
+                                "rateType": "BOOKABLE",
+                                "rooms": 1,
+                                "taxes": {
+                                    "allIncluded": false,
+                                    "taxes": [
+                                        {
+                                            "amount": "8.80",
+                                            "clientAmount": "8.80",
+                                            "clientCurrency": "EUR",
+                                            "currency": "EUR",
+                                            "included": false
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "zoneCode": 32,
+                "zoneName": "Paguera"
+            }
+        ],
+        "total": 1
+    }
+}

@@ -1,0 +1,1886 @@
+{
+    "data": [
+        {
+            "hotelId": "264",
+            "currency": "EUR",
+            "price": "366.62"
+        }
+    ],
+    "supplier": {
+        "request": {
+            "checkInDate": "2024-06-15",
+            "checkOutDate": "2024-06-16",
+            "hotelCodes": [
+                264
+            ],
+            "roomGuests": {
+                "roomGuests": [
+                    {
+                        "adultCount": 2,
+                        "childCount": 0
+                    }
+                ]
+            },
+            "guestNationality": "US",
+            "currency": "USD",
+            "languageCode": "",
+            "timeout": "0001-01-01T00:00:00Z"
+        },
+        "response": {
+            "responseStatus": {
+                "statusCode": "200",
+                "StatusMessage": "Success",
+                "requestAt": "2024-02-25T23:54:23.696187-05:00",
+                "responseAt": "2024-02-25T23:54:24.598734-05:00"
+            },
+            "sessionId": "0|67C45E136012440170892326443900|UK|05|1|54||||||||||||81||1~1~2~0|0|0||0|454754dfa49008c9539f0d082cd488b2||||",
+            "city": {
+                "cityCode": 0,
+                "cityName": "",
+                "countryName": ""
+            },
+            "checkInDate": "2024-06-15",
+            "checkOutDate": "2024-06-16",
+            "currency": "USD",
+            "roomGuests": {
+                "roomGuests": [
+                    {
+                        "adultCount": 2,
+                        "childCount": 0
+                    }
+                ]
+            },
+            "hotelResults": {
+                "hotelResults": [
+                    {
+                        "hotelInfo": {
+                            "hotelCode": 264,
+                            "hotelName": "Secrets Mallorca Villamil Resort & Spa",
+                            "hotelAddress": "",
+                            "hotelPictureUrl": "",
+                            "longitude": "2.45310880904920000000",
+                            "latitude": "39.53748636345900000000",
+                            "starRating": ""
+                        },
+                        "minPrice": "366.62",
+                        "rateDetails": {
+                            "rateDetails": [
+                                {
+                                    "rateDetailCode": "DBT.DX",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "DBT.DX|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "366.62",
+                                                    "price": "366.62",
+                                                    "initialPricePerNight": [
+                                                        "366.62"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "366.62"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "381.71",
+                                                    "price": "381.71",
+                                                    "initialPricePerNight": [
+                                                        "381.71"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "381.71"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "456.11",
+                                                    "price": "456.11",
+                                                    "initialPricePerNight": [
+                                                        "456.11"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "456.11"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "474.44",
+                                                    "price": "474.44",
+                                                    "initialPricePerNight": [
+                                                        "474.44"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "474.44"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "671.77",
+                                                    "price": "671.77",
+                                                    "initialPricePerNight": [
+                                                        "671.77"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "671.77"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "701.96",
+                                                    "price": "701.96",
+                                                    "initialPricePerNight": [
+                                                        "701.96"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "701.96"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "DBT.VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "DBT.VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "368.77",
+                                                    "price": "368.77",
+                                                    "initialPricePerNight": [
+                                                        "368.77"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "368.77"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "382.79",
+                                                    "price": "382.79",
+                                                    "initialPricePerNight": [
+                                                        "382.79"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "382.79"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "457.19",
+                                                    "price": "457.19",
+                                                    "initialPricePerNight": [
+                                                        "457.19"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "457.19"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "476.60",
+                                                    "price": "476.60",
+                                                    "initialPricePerNight": [
+                                                        "476.60"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "476.60"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "673.93",
+                                                    "price": "673.93",
+                                                    "initialPricePerNight": [
+                                                        "673.93"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "673.93"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "704.12",
+                                                    "price": "704.12",
+                                                    "initialPricePerNight": [
+                                                        "704.12"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "704.12"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "DBT.DX-GV",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "DBT.DX-GV|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "370.93",
+                                                    "price": "370.93",
+                                                    "initialPricePerNight": [
+                                                        "370.93"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "370.93"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-GV|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "384.95",
+                                                    "price": "384.95",
+                                                    "initialPricePerNight": [
+                                                        "384.95"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "384.95"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-GV|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "459.35",
+                                                    "price": "459.35",
+                                                    "initialPricePerNight": [
+                                                        "459.35"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "459.35"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-GV|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "477.68",
+                                                    "price": "477.68",
+                                                    "initialPricePerNight": [
+                                                        "477.68"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "477.68"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-GV|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "675.01",
+                                                    "price": "675.01",
+                                                    "initialPricePerNight": [
+                                                        "675.01"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "675.01"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-GV|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "705.20",
+                                                    "price": "705.20",
+                                                    "initialPricePerNight": [
+                                                        "705.20"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "705.20"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "DBT.DX-VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "DBT.DX-VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "375.24",
+                                                    "price": "375.24",
+                                                    "initialPricePerNight": [
+                                                        "375.24"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "375.24"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "390.34",
+                                                    "price": "390.34",
+                                                    "initialPricePerNight": [
+                                                        "390.34"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "390.34"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "464.74",
+                                                    "price": "464.74",
+                                                    "initialPricePerNight": [
+                                                        "464.74"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "464.74"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "483.07",
+                                                    "price": "483.07",
+                                                    "initialPricePerNight": [
+                                                        "483.07"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "483.07"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "680.40",
+                                                    "price": "680.40",
+                                                    "initialPricePerNight": [
+                                                        "680.40"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "680.40"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.DX-VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "710.59",
+                                                    "price": "710.59",
+                                                    "initialPricePerNight": [
+                                                        "710.59"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "710.59"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "JSU.TR",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "JSU.TR|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "410.83",
+                                                    "price": "410.83",
+                                                    "initialPricePerNight": [
+                                                        "410.83"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "410.83"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "424.84",
+                                                    "price": "424.84",
+                                                    "initialPricePerNight": [
+                                                        "424.84"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "424.84"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "499.25",
+                                                    "price": "499.25",
+                                                    "initialPricePerNight": [
+                                                        "499.25"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "499.25"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "518.65",
+                                                    "price": "518.65",
+                                                    "initialPricePerNight": [
+                                                        "518.65"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "518.65"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "715.98",
+                                                    "price": "715.98",
+                                                    "initialPricePerNight": [
+                                                        "715.98"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "715.98"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "746.17",
+                                                    "price": "746.17",
+                                                    "initialPricePerNight": [
+                                                        "746.17"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "746.17"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "DBT.CB-VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "DBT.CB-VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "445.33",
+                                                    "price": "445.33",
+                                                    "initialPricePerNight": [
+                                                        "445.33"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "445.33"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.CB-VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "459.35",
+                                                    "price": "459.35",
+                                                    "initialPricePerNight": [
+                                                        "459.35"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "459.35"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.CB-VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "533.75",
+                                                    "price": "533.75",
+                                                    "initialPricePerNight": [
+                                                        "533.75"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "533.75"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.CB-VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "553.16",
+                                                    "price": "553.16",
+                                                    "initialPricePerNight": [
+                                                        "553.16"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "553.16"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.CB-VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "750.49",
+                                                    "price": "750.49",
+                                                    "initialPricePerNight": [
+                                                        "750.49"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "750.49"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "DBT.CB-VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "780.68",
+                                                    "price": "780.68",
+                                                    "initialPricePerNight": [
+                                                        "780.68"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "780.68"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "JSU.C2-VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "JSU.C2-VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "473.37",
+                                                    "price": "473.37",
+                                                    "initialPricePerNight": [
+                                                        "473.37"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "473.37"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.C2-VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "487.38",
+                                                    "price": "487.38",
+                                                    "initialPricePerNight": [
+                                                        "487.38"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "487.38"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.C2-VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "561.79",
+                                                    "price": "561.79",
+                                                    "initialPricePerNight": [
+                                                        "561.79"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "561.79"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.C2-VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "580.12",
+                                                    "price": "580.12",
+                                                    "initialPricePerNight": [
+                                                        "580.12"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "580.12"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.C2-VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "778.52",
+                                                    "price": "778.52",
+                                                    "initialPricePerNight": [
+                                                        "778.52"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "778.52"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.C2-VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "808.71",
+                                                    "price": "808.71",
+                                                    "initialPricePerNight": [
+                                                        "808.71"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "808.71"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "JSU.TR-VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "JSU.TR-VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "489.54",
+                                                    "price": "489.54",
+                                                    "initialPricePerNight": [
+                                                        "489.54"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "489.54"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR-VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "503.56",
+                                                    "price": "503.56",
+                                                    "initialPricePerNight": [
+                                                        "503.56"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "503.56"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR-VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "577.96",
+                                                    "price": "577.96",
+                                                    "initialPricePerNight": [
+                                                        "577.96"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "577.96"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR-VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "597.37",
+                                                    "price": "597.37",
+                                                    "initialPricePerNight": [
+                                                        "597.37"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "597.37"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR-VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "794.69",
+                                                    "price": "794.69",
+                                                    "initialPricePerNight": [
+                                                        "794.69"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "794.69"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "JSU.TR-VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "824.89",
+                                                    "price": "824.89",
+                                                    "initialPricePerNight": [
+                                                        "824.89"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "824.89"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                },
+                                {
+                                    "rateDetailCode": "SUI.C2-VM",
+                                    "rooms": {
+                                        "rooms": [
+                                            {
+                                                "roomCode": "SUI.C2-VM|0",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "556.39",
+                                                    "price": "556.39",
+                                                    "initialPricePerNight": [
+                                                        "556.39"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "556.39"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "SUI.C2-VM|1",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "BB",
+                                                    "boardDescription": "BED AND BREAKFAST"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "571.49",
+                                                    "price": "571.49",
+                                                    "initialPricePerNight": [
+                                                        "571.49"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "571.49"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "SUI.C2-VM|2",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "645.89",
+                                                    "price": "645.89",
+                                                    "initialPricePerNight": [
+                                                        "645.89"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "645.89"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "SUI.C2-VM|3",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "HB",
+                                                    "boardDescription": "HALF BOARD"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "664.22",
+                                                    "price": "664.22",
+                                                    "initialPricePerNight": [
+                                                        "664.22"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "664.22"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "SUI.C2-VM|4",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "861.55",
+                                                    "price": "861.55",
+                                                    "initialPricePerNight": [
+                                                        "861.55"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "861.55"
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "roomCode": "SUI.C2-VM|5",
+                                                "adultCount": 2,
+                                                "childCount": 0,
+                                                "boards": {
+                                                    "boards": null
+                                                },
+                                                "includedBoard": {
+                                                    "boardId": "AI",
+                                                    "boardDescription": "ALL INCLUSIVE"
+                                                },
+                                                "roomDescription": "",
+                                                "roomRemarks": "",
+                                                "roomRate": {
+                                                    "initialPrice": "891.74",
+                                                    "price": "891.74",
+                                                    "initialPricePerNight": [
+                                                        "891.74"
+                                                    ],
+                                                    "pricePerNight": [
+                                                        "891.74"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "totalPrice": "366.62",
+                                    "tax": 0,
+                                    "hotelFees": "",
+                                    "remarks": "",
+                                    "taxesAndFees": {
+                                        "taxesAndFees": [
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            },
+                                            {
+                                                "included": false,
+                                                "description": "",
+                                                "amount": "8.80",
+                                                "currency": "EUR"
+                                            }
+                                        ]
+                                    },
+                                    "cancelPoliciesInfos": {
+                                        "cancelPolicyInfos": null,
+                                        "hotelRemarks": null,
+                                        "cancellationPolicies": null,
+                                        "refundableTag": ""
+                                    }
+                                }
+                            ],
+                            "minRate": "366.62",
+                            "maxRate": "891.74"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -9,8 +9,9 @@
 
 version: 0.0
 os: linux
+files:
+  - source: /app/hotel-rates-api
+    destination: /opt
 hooks:
   ApplicationStart:
-    - location: ./start_application.sh
-      timeout: 300
-      runas: root
+    - location: codedeploy/ApplicationStart.sh

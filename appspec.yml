@@ -9,9 +9,6 @@
 
 version: 0.0
 os: linux
-files:
-  - source: ./app/
-    destination: /opt/hotel-rates-api
 hooks:
   ApplicationStart:
     - location: ./start_application.sh

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the directory where your application binary is located
-cd /opt/hotel-rates-api
+# cd /app
 
 # Start the Go service
-./hotel-rates-api
+./app/hotel-rates-api

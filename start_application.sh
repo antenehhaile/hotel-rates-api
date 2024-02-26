@@ -4,4 +4,4 @@
 # cd /app
 
 # Start the Go service
-$(dirname "$0")/app/hotel-rates-api
+$(dirname "$0")/app/hotel-rates-api &

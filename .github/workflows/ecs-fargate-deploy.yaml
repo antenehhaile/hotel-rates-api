@@ -1,10 +1,9 @@
 name: Deploy to Amazon ECS
 
 on:
-  push:
-    branches:
-      - main
-
+  release:
+    types: [published]
+    
 env:
   AWS_REGION: us-east-2                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: hotel-rates-api           # set this to your Amazon ECR repository name
